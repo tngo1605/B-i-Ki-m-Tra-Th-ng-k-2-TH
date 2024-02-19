@@ -1,0 +1,120 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{ 
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+    margin-top: 10px;
+    border: 5px solid;
+}
+
+
+nav{ 
+    background-color: #ecdeec;
+    padding: 10px;
+    position: relative;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a{ 
+    color: #4f2c5c;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{ 
+    color: yellow;
+}
+
+nav ul .chuxanh a{
+    
+    color: #152bec;
+}
+
+nav .search{
+    position: absolute;
+    right: 10px;
+    margin-top: -22px;
+    color: red; 
+}
+
+nav .search button{
+    background-color: aqua;
+    color: #fff; 
+    border: none;   
+}
+
+header img{ 
+    width: 100%;
+}
+
+.main {
+    display: flex; 
+}
+
+section{ 
+    background-color: aqua;
+    background-image: -webkit-radial-gradient(circle farthest-side, #fff, #9bdcde);
+}
+
+section h2{ 
+    text-align: center;
+    color: red;
+    
+}
+
+section, aside {
+    flex: 1; 
+    padding: 10px;
+}
+
+aside {
+    background-color: #fff;
+    border: 3px #ccc solid;
+}
+
+aside img{ 
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+aside h3{ 
+    text-align: center;
+    color: red;
+    text-shadow: 0px 0px 10px #d9d61e;
+}
+aside img:hover {
+    transform: rotate(30deg);
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    background-color: #333;
+    color: black;
+    padding: 20px;
+    background-color: #cbcc66;
+    position: relative;
+    height: 50px;
+}
+
+footer .pRight{
+    position: absolute;
+    right: 30px;
+}
+
+footer .pLeft{
+    position: absolute;
+    left: 30px;
+}
